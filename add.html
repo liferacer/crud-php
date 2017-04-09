@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	    #main{
+	    	background-color: #C0C0C0;
+	    	width: 100%;
+	    	height:1000px;
+	    	float: left;
+	    }
+		#header{
+			height: 100px;
+			width: 100%;
+			background-color: #202020;
+			color: white;
+
+		}
+		p{
+			font-size: 30px;
+			text-align: center;
+			padding-top: 20px;
+			font-weight: bold;
+		}
+		input{
+			margin-top: 30px;
+			height: 40px;
+			width: 400px;
+			margin-left: 40px;
+		}
+		#sub{
+			width: 500px;
+			height: 400px;
+			background-color: #808080;
+			margin-left: 100px;
+			margin-top: 40px;
+			border-radius: 15px;
+		}
+		#link{
+
+		}
+	</style>
+</head>
+<body>
+<div id="main">
+	<div id="header"><p>SIMPLE CRUD OPERATION</p></div>
+	<div id="link">
+	    <a style="font-size: 20px;margin-left: 20px;" href="index.php">HOME</a></div>
+
+	<div id="sub">
+		<form action="add.php" method="post" name="form1">
+			<input style="font-weight: bold" type="text" name="name" placeholder="NAME"><br>
+			<input style="font-weight: bold" type="text" name="age" placeholder="AGE"><br>
+	   	    <input style="font-weight: bold" type="text" name="email" placeholder="EMAIL ID"><br>
+			<input style="font-weight: bold" id="sign" type="submit" name="Submit" value="ADD">
+
+	    </form>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
